@@ -1,5 +1,3 @@
-
-
 from portfolio import Portfolio
 
 p = Portfolio()
