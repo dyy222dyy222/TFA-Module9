@@ -1,3 +1,4 @@
+import pytest
 from portfolio import Portfolio
 
 p = Portfolio()
