@@ -1,12 +1,11 @@
 
 class Portfolio:
-    def __int__(self):
-        self._stock = []
+
+    def __init__(self):
+        self._stocks = []
 
     def buy(self, name, shares, price):
-        self._stock.append((name,shares, price))
+        self._stocks.append([name, shares, price])
 
     def cost(self):
-        return sum(
-            shares * price for _, shares, price in self._stocks)
-        ) 
+        return sum(shares * price for _, shares, price in self._stock)
